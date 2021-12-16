@@ -1,0 +1,18 @@
+ServerName: "localhost:3306"
+User:       "root"
+Password:   "Password@99"
+DB:         "SupplyChain"
+
+channelName  : "mychannel"
+AreaContract : "area"
+DiaryContract : "diary"
+TransactionContract : "transaction"
+AccountContract : "account"
+
+maxWorker : 10
+maxTransaction : 1000
+maxAccount : 1000
+
+processing : 0
+success : 1
+fail : 2
